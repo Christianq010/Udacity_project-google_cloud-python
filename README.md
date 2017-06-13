@@ -5,7 +5,7 @@
 
 Build an application that can serve hundreds of thousands of users via the Google App Engine - Platform.
 
-### *Hosted Deployed link here* -
+### *Hosted Deployed link here* - [https://capital-hotels-a-1479893595874.appspot.com]
 
 
 ### About Our Project
@@ -18,7 +18,8 @@ Build an application that can serve hundreds of thousands of users via the Googl
 * Denial-of-service protection.
 * OAuth 2.0 support.
 
-### _Setting up our Project_
+## __Setting up our Project__
+
 #### Quickstart for the Google Cloud Platform on Windows
 
 ##### 1. *Initialize the SDK:* [https://cloud.google.com/sdk/docs/quickstart-windows]
@@ -31,6 +32,10 @@ Build an application that can serve hundreds of thousands of users via the Googl
 * To change the port, you include the --port option:
 `dev_appserver.py --port=9999 [PATH_TO_YOUR_APP]`
 
+##### 3. *Deploy App to App Engine:* [https://cloud.google.com/appengine/docs/standard/python/tools/uploadinganapp]
+
+* `gcloud app deploy` - Run the command from within the root directory of your application where your configuration files are located, for example `app.yaml`.
+* `gcloud app deploy --version [YOUR_VERSION_ID]` or `--project [YOUR_PROJECT_ID]` for optional flags.
 
 ### __Run core gcloud commands__
 
