@@ -6,8 +6,6 @@
 # TODO: Enter your application id below. If you have signed up
 # using cloud.google.com/console use the "project id" for your application
 # id.
-application: capital-hotels-a-1479893595874
-version: 1
 runtime: python27
 threadsafe: true
 api_version: 1
@@ -27,7 +25,7 @@ handlers:
 # This handler routes requests to your APIs to your Endpoints code.
 # See https://developers.google.com/appengine/docs/python/endpoints/
 - url: /_ah/spi/.*
-  script: helloworld_api.APPLICATION
+  script: helloworld_api.app
   secure: always
 
 # Third party libraries that are included in the App Engine SDK must be listed
