@@ -3,7 +3,7 @@
 
 ## Description
 
-Build an application that can serve hundreds of thousands of users via the Google App Engine - Platform as a Service, run by Google
+Build an application that can serve hundreds of thousands of users via the Google App Engine - Platform.
 
 ### *Hosted Deployed link here* -
 
