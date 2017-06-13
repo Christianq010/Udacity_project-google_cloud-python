@@ -27,21 +27,16 @@ Build an application that can serve hundreds of thousands of users via the Googl
 
 ##### 2. *Launch App on Localhost:* [https://cloud.google.com/appengine/docs/standard/python/tools/using-local-server]
 
-* Run the command as follows from the directory that contains your app's app.yaml configuration file.
-`dev_appserver.py app.yaml`
+* `dev_appserver.py app.yaml` - Run the command as follows from the directory that contains your app's app.yaml configuration file.
 * To change the port, you include the --port option:
 `dev_appserver.py --port=9999 [PATH_TO_YOUR_APP]`
 
 
 ### Run core gcloud commands
 
-1. Run these gcloud commands to view information about your SDK installation:
-
+##### 1. Run these gcloud commands to view information about your SDK installation:
 * To list accounts whose credentials are stored on the local system:
-
-`gcloud auth list`
-gcloud displays a list of credentialed accounts:
-
+* `gcloud auth list`- gcloud displays a list of credentialed accounts:
 ```
 Credentialed accounts:
  - example-user-1@gmail.com (active)
@@ -49,12 +44,8 @@ Credentialed accounts:
 
 ```
 
-2. To list the properties in your active SDK configuration:
-
-`gcloud config list`
-
-gcloud displays the list of properties:
-
+##### 2. To list the properties in your active SDK configuration:
+* `gcloud config list` - gcloud displays the list of properties:
 ```
 [core]
 account = example-user-1@gmail.com
@@ -62,18 +53,11 @@ disable_usage_reporting = False
 project = example-project
 ```
 
-3. To view information your Cloud SDK installation and the active SDK configuration:
-
-`gcloud info`
-gcloud displays a summary of information about your Cloud SDK installation. This includes information about your system, the installed SDK components, the active user account and current project, and the properties in the active SDK configuration.
-
-To view information about gcloud commands and other topics from the command line:
-`gcloud help`
-
-For example, to view the help for gcloud compute instances create:
-`gcloud help compute instances create`
-
-`gcloud` displays a help topic that contains a description of the command, a list of command flags and arguments, and examples of how to use it.
+##### 3. To view information your Cloud SDK installation and the active SDK configuration:
+* `gcloud info` - gcloud displays a summary of information about your Cloud SDK installation. This includes information about your system, the installed SDK components, the active user account and current project, and the properties in the active SDK configuration.
+* `gcloud help` - To view information about gcloud commands and other topics from the command line.
+* `gcloud help compute instances create` - For example, to view the help for gcloud compute instances create.
+* `gcloud` displays a help topic that contains a description of the command, a list of command flags and arguments, and examples of how to use it.
 
 
 ### Conclusion
