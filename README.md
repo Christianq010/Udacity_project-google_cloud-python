@@ -19,47 +19,19 @@ Build an application that can serve hundreds of thousands of users via the Googl
 * OAuth 2.0 support.
 
 ### Setting up our Project
-#### Quickstart for Google Cloud Platform on Windows - [https://cloud.google.com/sdk/docs/quickstart-windows]
-1. Initialize the SDK:
+#### Quickstart for the Google Cloud Platform on Windows
 
-Run the following at a command prompt:
-`gcloud init`
+##### 1. *Initialize the SDK:* [https://cloud.google.com/sdk/docs/quickstart-windows]
 
-2. Accept the option to log in using your Google user account:
+* `gcloud init` - Run the following at a command prompt, log into your Google account, grant proper permissions, choose a project and complete setup successfully.
 
-`To continue, you must log in. Would you like to log in (Y/n)? Y`
+##### 2. *Launch App on Localhost:* [https://cloud.google.com/appengine/docs/standard/python/tools/using-local-server]
 
-3. In your browser, log in to your Google user account when prompted and click Allow to grant permission to access Google Cloud Platform resources.
+* Run the command as follows from the directory that contains your app's app.yaml configuration file.
+`dev_appserver.py app.yaml`
+* To change the port, you include the --port option:
+`dev_appserver.py --port=9999 [PATH_TO_YOUR_APP]`
 
-At the command prompt, select a Cloud Platform project from the list of those where you have Owner, Editor or Viewer permissions:
-```
-Pick cloud project to use:
- [1] [my-project-1]
- [2] [my-project-2]
- ...
- Please enter your numeric choice:
-```
-
-4. If you only have one project, gcloud init selects it for you.
-
-If you have the Google Compute Engine API enabled, gcloud init allows you to choose a default Compute Engine zone:
-```
-Which compute zone would you like to use as project default?
- [1] [asia-east1-a]
- [2] [asia-east1-b]
- ...
- [14] Do not use default zone
- Please enter your numeric choice:
-```
-
-5. `gcloud init` confirms that you have complete the setup steps successfully:
-
-```
-gcloud has now been configured!
-You can use [gcloud config] to change more gcloud settings.
-
-Your active configuration is: [default]
-```
 
 ### Run core gcloud commands
 
