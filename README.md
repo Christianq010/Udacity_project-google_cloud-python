@@ -18,7 +18,7 @@ Build an application that can serve hundreds of thousands of users via the Googl
 * Denial-of-service protection.
 * OAuth 2.0 support.
 
-### Setting up our Project
+### _Setting up our Project_
 #### Quickstart for the Google Cloud Platform on Windows
 
 ##### 1. *Initialize the SDK:* [https://cloud.google.com/sdk/docs/quickstart-windows]
@@ -32,7 +32,7 @@ Build an application that can serve hundreds of thousands of users via the Googl
 `dev_appserver.py --port=9999 [PATH_TO_YOUR_APP]`
 
 
-### Run core gcloud commands
+### __Run core gcloud commands__
 
 ##### 1. Run these gcloud commands to view information about your SDK installation:
 * To list accounts whose credentials are stored on the local system:
